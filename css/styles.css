@@ -12,7 +12,7 @@ body {
     font-family: "Roboto", "Arial", sans-serif;
     font-size: 16px;
     line-height: 1;
-    background-color: rgb(68, 68, 109);
+    background-color: #32405a;
     color: #fff;
 }
 .visually-hidden {
@@ -241,4 +241,14 @@ img {
 }
 .standard-value-text {
     margin-right: 40px;
+}
+.done-button {
+    display: block;
+    border: none;
+    background: #4eaaff;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 10px 50px;
+    border-radius: 5px;
 }
