@@ -216,6 +216,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: 20px;
 }
 .footer-value-part {
     display: flex;
