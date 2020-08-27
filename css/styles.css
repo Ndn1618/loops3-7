@@ -46,7 +46,7 @@ img {
 .header-top-flex {
     display: flex;
     align-items: start;
-    padding-top: 10px;
+    padding-top: 12px;
 }
 .header-top-flex h2 {
     margin: 0 15px 15px 0;
@@ -91,17 +91,13 @@ img {
 .main-screen {
     width: 600px;
     height: 130px;
-    transform: perspective(1000px) rotateX(-50deg);
+    transform: perspective(1000px) rotateX(-40deg);
     box-shadow: 0 20px 30px -10px grey;
 }
-.checkboxes-box {
+.checkbox-list {
     transform: perspective(1000px) rotateX(40deg);
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
-.checkbox-input {
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    background-color: #fff;
-    border-radius: 50%;
-    background-color: rgb(86, 118, 207);
-}
+
